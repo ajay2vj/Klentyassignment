@@ -21,7 +21,7 @@ export default function Navbar(){
           <div className={styles.nav_button}>
             <span className={styles.login_text}>Log in</span>
             <button className={styles.nav_schedule}>SCHEDULE DEMO</button>
-            <button className={styles.nav_tryfree}>TRY for free</button>
+            <button className={styles.nav_tryfree}>TRY FOR FREE</button>
           </div>
         </nav>
       </div>

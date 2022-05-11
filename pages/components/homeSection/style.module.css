@@ -19,21 +19,42 @@
   padding: 0px 20px 0px 20px;
   margin-top: 20px;
 }
+.body_text {
+  font-family: 'Poppins';
+}
 .heart_img{
   padding: 20px 20px;
   margin-top: 20px;
   margin-left: 20px;
 }
+.heart_img .desktopIMG{
+  width: 460px;
+  display: block;
+}
+.heart_img .mobileIMG{
+  display: none;
+}
 .sectionHome{
   padding-bottom: 100px;
 }
 @media only screen and (max-width: 600px) {
-  .heart_img {
+  .heart_img .desktopIMG {
+    display: none;
+  }
+  .heart_img{
     padding: 0px 0px;
+    margin-top: 0px;
     margin-left: 0px;
   }
-  .heart_img img {
-    width: 300px;
-    height: auto;
+  .heart_img .mobileIMG{
+    display: block;
+    width: 363px;
+    padding-left: 30px;
+  }
+  .sectionHome {
+    padding-bottom: 50px;
+  }
+  .header_div{
+    padding: 0px 0px 19px 20px;
   }
 }

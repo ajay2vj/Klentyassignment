@@ -1,0 +1,73 @@
+.arrow{
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+.arrow button{
+  margin: 0px 5px 0px 5px;
+  padding: 3px 15px 3px 15px;
+  background: #EBF6FF;
+  border: 1px solid #EBF6FF;
+}
+.section_customer{
+  padding-bottom: 100px;
+}
+.head_text{
+  text-align: center;
+  padding-bottom: 50px;
+  font-family: 'Paytone One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: #120155;
+  margin-right: 80px;
+}
+.para_text {
+  color: #120155;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+.signatute_div {
+  margin: 50px 0px 0px 0px;
+  gap: 20px;
+}
+.Image_class{
+  padding: 0px 24px 0px 0px;
+  border-right: 1px solid;
+}
+.role_div{
+  font-family: 'Poppins';
+}
+.role_div h6{
+  font-weight: 600;
+}
+.mobile_view {
+  display: none;
+}
+.desktop_view {
+  display: block;
+}
+@media only screen and (max-width: 600px) {
+  .mobile_view {
+    display: block;
+  }
+  .desktop_view {
+    display: none;
+  }
+  .head_text{
+    margin-right: 0px;
+    font-size: 22px;
+  }
+  .signatute_div {
+    margin: 50px 0px 0px 0px;
+    gap: 20px;
+  }
+  .arrow{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 0px;
+    padding-bottom: 50px;
+  }
+}
