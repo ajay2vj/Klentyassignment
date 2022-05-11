@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './style.module.css'
 import homeImg from '../../assets/img/Group_1006.png'
+import { Image } from '@chakra-ui/react'
 export default function HomeSection(){
   return(
     <section className={styles.sectionHome}>
@@ -17,7 +18,7 @@ export default function HomeSection(){
           </div>
           <div className='col-lg-6 col-sm-6'>
             <div className={styles.heart_img}>
-              <img src={homeImg.src} alt="image for home section" />
+              <Image src={homeImg.src} alt="image for home section" />
             </div>
           </div>
         </div>
