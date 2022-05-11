@@ -1,0 +1,36 @@
+.acceleration_background{
+  background: linear-gradient(180deg, rgba(235, 246, 255, 0) -12.61%, #EBF6FF 50.78%, rgba(235, 246, 255, 0) 114.7%);
+  padding-bottom: 100px;
+}
+.acceleration_text{
+  padding: 20px 0px;
+  text-align: center;
+}
+.acceleration_text h1{
+  font-family: 'Paytone One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #120155;
+}
+.sec_box{
+  background: #FFFFFF;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  padding: 25px 35px;
+  height: 308px;
+  margin-top: 20px;
+}
+.sec_box img{
+  width: 50px;
+}
+.sec_box h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sec_box span{
+  font-family: 'Poppins';
+}
