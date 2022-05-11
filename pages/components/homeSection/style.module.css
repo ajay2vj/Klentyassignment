@@ -7,6 +7,8 @@
 }
 .span_text{
   color: #5856CE;
+  position: relative;
+  top: -17px;
 }
 .getStarted{
   color: #FFF;

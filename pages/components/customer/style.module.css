@@ -30,7 +30,7 @@
   font-size: 20px;
 }
 .signatute_div {
-  margin: 50px 0px 0px 0px;
+  margin: 65px 0px 0px 0px;
   gap: 20px;
 }
 .Image_class{
@@ -48,6 +48,14 @@
 }
 .desktop_view {
   display: block;
+}
+.quote_img{
+  width: 55px;
+  margin-left: -8px;
+  padding-bottom: 30px;
+}
+.profile_img img{
+  width: 230px;
 }
 @media only screen and (max-width: 600px) {
   .mobile_view {
@@ -69,5 +77,8 @@
     margin-top: 20px;
     margin-right: 0px;
     padding-bottom: 50px;
+  }
+  .content_column{
+    margin: 25px 0px 0px 0px;
   }
 }

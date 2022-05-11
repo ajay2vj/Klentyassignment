@@ -51,7 +51,7 @@ export const MyCarousel = () => {
               <div className={`container ${styles.desktop_view}`}>
                 <div className='row'>
                   <div className='col-lg-6'>
-                    <Image src={item?.img1.src} alt='quote' />
+                    <Image src={item?.img1.src} alt='quote' className={styles.quote_img} />
                     <p className={styles.para_text}>{item?.paragraph}</p>
                     <div className={`d-flex ${styles.signatute_div}`}>
                       <div className={styles.Image_class}>
@@ -64,7 +64,7 @@ export const MyCarousel = () => {
                     </div>
                   </div>
                   <div className='col-lg-6'>
-                    <div>
+                    <div className={styles.profile_img}>
                       <Image src={item?.profImg.src} alt='profileImage' />
                     </div>
                   </div>
@@ -73,20 +73,22 @@ export const MyCarousel = () => {
               <div className={`container ${styles.mobile_view}`}>
                 <div className='row'>
                   <div className='col-lg-6'>
-                    <div>
+                    <div className={styles.profile_img}>
                       <Image src={item?.profImg.src} alt='profileImage' />
                     </div>
                   </div>
                   <div className='col-lg-6'>
-                    <Image src={item?.img1.src} alt='quote' />
-                    <p className={styles.para_text}>{item?.paragraph}</p>
-                    <div className={`d-flex ${styles.signatute_div}`}>
-                      <div className={styles.Image_class}>
-                        <Image src={item?.signLogo.src} alt='sign'/>
-                      </div>
-                      <div className={styles.role_div}>
-                        <h6>{item?.adam}</h6>
-                        <span>{item?.role}</span>
+                    <div className={styles.content_column}>
+                      <Image src={item?.img1.src} alt='quote' className={styles.quote_img}/>
+                      <p className={styles.para_text}>{item?.paragraph}</p>
+                      <div className={`d-flex ${styles.signatute_div}`}>
+                        <div className={styles.Image_class}>
+                          <Image src={item?.signLogo.src} alt='sign'/>
+                        </div>
+                        <div className={styles.role_div}>
+                          <h6>{item?.adam}</h6>
+                          <span>{item?.role}</span>
+                        </div>
                       </div>
                     </div>
                   </div>

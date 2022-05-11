@@ -11,7 +11,8 @@ export default function HomeSection(){
           <div className='col-lg-6 col-md-12 col-sm-12'>
             <div className={styles.header_div}>
               <div className={styles.top_text}>
-                <h1>Don&apos;t just integrate <span className={styles.span_text}>Accelerate your CRM</span></h1>
+                <h1>Don&apos;t just integrate</h1>
+                <span className={styles.span_text}>Accelerate your CRM</span>
               </div>
               <div className={styles.body_text}>
                 <span>Propel your sales team into a state of flow with CRM Accelerations. Switch out boring hours of repetitive work with high-impact activities. Build a repeatable sales process. </span>
