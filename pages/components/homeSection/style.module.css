@@ -59,4 +59,8 @@
   .header_div{
     padding: 0px 0px 19px 20px;
   }
+  .span_text{
+    top: -29px;
+    font-size: 29px;
+  }
 }
